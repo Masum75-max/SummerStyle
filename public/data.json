@@ -1,0 +1,112 @@
+[
+  {
+    "id": 1,
+    "name": "UV Protection Sunglasses",
+    "brand": "SunShade",
+    "price": 15,
+    "rating": 4.7,
+    "stock": 10,
+    "description": "Stylish UV protection sunglasses perfect for summer outings.",
+    "image": "https://images.unsplash.com/photo-1572635196237-14b3f281503f?w=400",
+    "category": "Accessories"
+  },
+  {
+    "id": 2,
+    "name": "Floral Beach Dress",
+    "brand": "Soleil",
+    "price": 42,
+    "rating": 4.8,
+    "stock": 25,
+    "description": "Lightweight floral sundress made from breathable cotton — ideal for beach days and rooftop evenings.",
+    "image": "https://images.unsplash.com/photo-1496747611176-843222e1e57c?w=400",
+    "category": "Clothing"
+  },
+  {
+    "id": 3,
+    "name": "SPF 50 Sunscreen Spray",
+    "brand": "GlowGuard",
+    "price": 18,
+    "rating": 4.9,
+    "stock": 60,
+    "description": "Water-resistant broad-spectrum SPF 50 sunscreen spray. Reef-safe and fast-absorbing for all-day protection.",
+    "image": "https://images.unsplash.com/photo-1556228578-0d85b1a4d571?w=400",
+    "category": "Skincare"
+  },
+  {
+    "id": 4,
+    "name": "Inflatable Pool Float",
+    "brand": "WaveRider",
+    "price": 29,
+    "rating": 4.6,
+    "stock": 18,
+    "description": "Giant flamingo inflatable pool float for hours of fun. Durable PVC, holds up to 220 lbs.",
+    "image": "https://images.unsplash.com/photo-1530053969600-caed2596d242?w=400",
+    "category": "Pool & Beach"
+  },
+  {
+    "id": 5,
+    "name": "Straw Sun Hat",
+    "brand": "BreezeWear",
+    "price": 22,
+    "rating": 4.5,
+    "stock": 35,
+    "description": "Wide-brim woven straw hat with an adjustable inner band. Foldable and perfect for travel.",
+    "image": "https://images.unsplash.com/photo-1521369909029-2afed882baee?w=400",
+    "category": "Accessories"
+  },
+  {
+    "id": 6,
+    "name": "Portable Beach Umbrella",
+    "brand": "ShadeUp",
+    "price": 55,
+    "rating": 4.7,
+    "stock": 12,
+    "description": "UPF 50+ beach umbrella with sand anchor and tilt adjustment. Sets up in under 60 seconds.",
+    "image": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=400",
+    "category": "Pool & Beach"
+  },
+  {
+    "id": 7,
+    "name": "Insulated Water Bottle 32oz",
+    "brand": "ChillKeep",
+    "price": 34,
+    "rating": 4.9,
+    "stock": 50,
+    "description": "Triple-insulated stainless steel bottle keeps drinks cold for 24 hours. Leak-proof flip lid included.",
+    "image": "https://images.unsplash.com/photo-1602143407151-7111542de6e8?w=400",
+    "category": "Drinkware"
+  },
+  {
+    "id": 8,
+    "name": "Quick-Dry Board Shorts",
+    "brand": "TideLine",
+    "price": 38,
+    "rating": 4.6,
+    "stock": 30,
+    "description": "Men's quick-dry board shorts with mesh lining and zippered pocket. Available in 6 tropical prints.",
+    "image": "https://images.unsplash.com/photo-1565084888279-aca607ecce0c?w=400",
+    "category": "Clothing"
+  },
+  {
+    "id": 9,
+    "name": "Waterproof Bluetooth Speaker",
+    "brand": "AquaBeat",
+    "price": 69,
+    "rating": 4.8,
+    "stock": 20,
+    "description": "IPX7 waterproof portable speaker with 360° sound and 18-hour battery. Float-ready and sand-resistant.",
+    "image": "https://images.unsplash.com/photo-1608043152269-423dbba4e7e1?w=400",
+    "category": "Electronics"
+  },
+  {
+    "id": 10,
+    "name": "Aloe Vera After-Sun Gel",
+    "brand": "CoolDown",
+    "price": 12,
+    "rating": 4.8,
+    "stock": 75,
+    "description": "Soothing pure aloe vera gel that instantly cools sunburned skin. Fragrance-free and enriched with vitamin E.",
+    "image": "https://images.unsplash.com/photo-1556228720-195a672e8a03?w=400",
+    "category": "Skincare"
+  }
+]
