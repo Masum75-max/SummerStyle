@@ -1,3 +1,4 @@
+
 import Product from "@/Components/Product";
 import SummerPromoBanner from "@/Components/SummerPromoBanner";
 import Image from "next/image";
@@ -10,7 +11,7 @@ export default async function Home() {
 
   console.log(products)
 
-  const frontLineProduct = products.slice(0, 3);
+  const frontLineProduct = products.slice(0, 6);
 
   return (
     <>

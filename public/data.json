@@ -108,5 +108,28 @@
     "description": "Soothing pure aloe vera gel that instantly cools sunburned skin. Fragrance-free and enriched with vitamin E.",
     "image": "https://images.unsplash.com/photo-1556228720-195a672e8a03?w=400",
     "category": "Skincare"
+  },
+  {
+    "id": 11,
+    "name": "Waterproof Bluetooth Speaker",
+    "brand": "AquaBeat",
+    "price": 69,
+    "rating": 4.8,
+    "stock": 20,
+    "description": "IPX7 waterproof portable speaker with 360° sound and 18-hour battery. Float-ready and sand-resistant.",
+    "image": "https://images.unsplash.com/photo-1608043152269-423dbba4e7e1?w=400",
+    "category": "Electronics"
+  },
+  {
+    "id": 12,
+    "name": "Aloe Vera After-Sun Gel",
+    "brand": "CoolDown",
+    "price": 12,
+    "rating": 4.8,
+    "stock": 75,
+    "description": "Soothing pure aloe vera gel that instantly cools sunburned skin. Fragrance-free and enriched with vitamin E.",
+    "image": "https://images.unsplash.com/photo-1556228720-195a672e8a03?w=400",
+    "category": "Skincare"
   }
+
 ]
