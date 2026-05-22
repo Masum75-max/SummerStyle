@@ -3,7 +3,7 @@ import React from 'react';
 
 const ProductDetailpage = async({ params }) => {
     const { id } = await params;
-    const res = await fetch(`http://localhost:3000/data.json`);
+    const res = await fetch(`${process.env.BETTER_AUTH_URL}/data.json`);
 
     const products = await res.json();
     console.log(products)
