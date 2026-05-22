@@ -3,14 +3,12 @@ dns.setServers(["8.8.8.8","8.8.4.4"])
 import Product from "@/Components/Product";
 import SummerPromoBanner from "@/Components/SummerPromoBanner";
 import Image from "next/image";
+import products from '../../../public/data.json';
 
 export default async function Home() {
     
-  const res =   await fetch(`${process.env.BETTER_AUTH_URL}/data.json`)
+  
 
-  const products = await  res.json();
-
-  console.log(products)
 
   const frontLineProduct = products.slice(0, 6);
 
