@@ -7,7 +7,14 @@ import Link from "next/link";
   
 
   
-const SignUpPage = () => {
+const SignInPage = () => {
+
+    const googleSignIn = async () => {
+       const  data = await authClient.signIn.social({
+            provider: "google",
+       });
+       console.log(data);
+    }
 
   const path = useRouter();
   const onSubmit = async (e) => {
@@ -17,37 +24,29 @@ const SignUpPage = () => {
 
   
     
-      const { data, error } = await authClient.signUp.email({
+      const { data, error } = await authClient.signIn.email({
         email: Inputdata.email,
-        password: Inputdata.password,
-        image: Inputdata.photoUrl,
-        name: Inputdata.username,
+        password: Inputdata.password
+    
       });
 
-    if(!error){
-          path.push('/');
-    }
-    else{
-      alert("Error creating account. Please try again.");
-    }
+      if(!error){
+            path.push('/');
+      }
+      else{
+        alert("Invalid email or password. Please try again.");
+      }
+
+   
   };
 
   return (
+    <>
     <Form
       className="flex w-96 flex-col gap-4 p-4 rounded-lg bg-white shadow-md"
       onSubmit={onSubmit}
     >
-      <TextField className="w-full max-w-64" name="username">
-        <Label>Username</Label>
-        <Input placeholder="Enter username" />
-        <Description>Choose a unique username for your account</Description>
-      </TextField>
-
-      <TextField className="w-full max-w-64" name="photoUrl">
-        <Label>Photo URL</Label>
-        <Input placeholder="Enter photo URL" />
-        <Description>Enter the URL of your profile photo</Description>
-      </TextField>
+     
 
       <TextField
         isRequired
@@ -91,14 +90,28 @@ const SignUpPage = () => {
           <Check />
           Submit
         </Button>
-       
+        
       </div>
 
       <div>
-          Already have an account? <Link href="/signin" className="text-green-600 hover:underline">Sign In</Link> 
+        Dont have an account? <Link href="/signup" className="text-green-600 hover:underline">Sign Up</Link>
       </div>
     </Form>
-  );
-};
 
-export default SignUpPage;
+    <div>
+        <p className="text-center mt-4 text-gray-600">Or sign in with</p>
+    <div className="flex justify-center gap-4 mt-2">
+          <Button variant="outline" onClick={googleSignIn}>
+            Google
+          </Button>
+    </div>
+     </div>
+    </>
+
+      
+  );
+}
+     
+
+
+export default SignInPage;
